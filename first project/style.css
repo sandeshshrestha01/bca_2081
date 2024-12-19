@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+ /* top boder */
+
+.topbar{
+    background-color: #6d3098;
+    height: 30px;
+    display: flex;
+}
+.topbar-info{
+    display: flex;
+    align-items: center;
+    list-style: none;
+   
+}
+.topbar-info-item a,span{
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.top-section{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+.top-section a{
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    font-weight: 600;
+}
+.top-section a:hover{
+    color: #dc3545;
+    transition: 0.5s;
+}
+.tpobar-right{
+    margin-left: auto;
+}
+.social-media{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-top: 5px;
+    padding-left: 8rem;
+}
+.social-media li a {
+    padding: 0px 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.social-media li a:hover{
+    color: #181818;
+    transition: 0.5s;
+}
+ /* buttom navabar */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+    background-color: #f8ae0e;
+    height: 60px;
+
+}
+.logo img{
+    height: 50px;
+    padding-left: 55px;
+    cursor: pointer;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.navbar ul li a{
+    padding: 0px 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+.navbar ul li a:hover{
+    color: #dc3545;
+    transition: 0.5s;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+/* button */
+.btn button{
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #f05822;
+    background-color: #f05822;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: #f8ae0e;
+    border: 2px solid #f05822;
+    transition: 0.5s;
+}

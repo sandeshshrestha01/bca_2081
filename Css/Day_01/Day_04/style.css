@@ -1,0 +1,18 @@
+body{
+    display: flex;
+}
+img{
+    width: 235px;
+    height: 235px;
+
+}
+.card{
+    width: 235px;
+    height: 235px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+}
