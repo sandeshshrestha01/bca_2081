@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            display: grid;
+            grid-template-columns: 100px 100px 1fr;
+            gap: 4px;
+        }
+        .element{
+            width: 100%;
+            height: 100px;
+        }
+        .element:nth-child(1){
+            background-color: red;
+        }
+        .element:nth-child(2){
+            background-color: blue;
+        }
+        .element:nth-child(3){
+            background-color: green;
+        }
+        .element:nth-child(4){
+            background-color: yellow;
+        }
+        .element:nth-child(5){
+            background-color: black;
+        }
+        .element:nth-child(6){
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <div class="element"></div>
+        <div class="element"></div>
+        <div class="element"></div>
+        <div class="element"></div>
+        <div class="element"></div>
+        <div class="element"></div>
+    </div>
+</body>
+</html>

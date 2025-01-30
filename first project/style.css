@@ -7,7 +7,7 @@
  /* top boder */
 
 .topbar{
-    background-color: #6d3098;
+    background-color:#6d3098;
     height: 30px;
     display: flex;
 }
@@ -70,28 +70,30 @@
     margin-top: 0px;
     background-color: #f8ae0e;
     height: 60px;
+    gap: 29px;
 
-}
+} 
+/* second navbar */
 .logo img{
-    height: 50px;
+    height: 40px;
     padding-left: 55px;
     cursor: pointer;
 }
 
-.navbar ul {
+.menu ul {
     display: flex;
     list-style: none;
-    align-items: center;
+    gap: 20px;  
 }
-.navbar ul li a{
-    padding: 0px 15px;
+.menu ul li a{
     text-decoration: none;
     color: #000;
-    font-weight: 600;
 }
-.navbar ul li a:hover{
-    color: #dc3545;
-    transition: 0.5s;
+.menu li a:hover{
+    color: #fff;
+    border-bottom: 2px solid #f05822;
+    padding: 8px 0;
+    transition: all .5s ease;
 }
 .menu {
     display: flex;
@@ -100,21 +102,18 @@
 }
 /* button */
 .btn button{
-    padding: 10px 15px;
-    text-decoration: none;
-    font-size: 0.9rem;
-    font-weight: lighter;
-    font-family: 'Times New Roman', Times, serif;
+    background: #f05822;
     color: #fff;
-    font-weight: 600;
+    padding: 12px;
+    margin-left: 15px;
+    gap: 10px;
+    text-decoration: none;
+    border-radius: 8px;
     border: 1px solid #f05822;
-    background-color: #f05822;
-    border: none;
-    border-radius: 5px;
+    transition: all .5s ease;
     cursor: pointer;
 }
 .btn button:hover{
-    background-color: #f8ae0e;
-    border: 2px solid #f05822;
+    background: transparent;
     transition: 0.5s;
 }

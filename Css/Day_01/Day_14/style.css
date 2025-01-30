@@ -1,0 +1,14 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+}
+.box::before{
+    content: "";
+    background-color: yellow;
+    width: 100px;
+    width: 100px;
+    display: block;
+    
+}
